@@ -1,0 +1,45 @@
+{
+  "name": "array-of-key",
+  "version": "0.1.0",
+  "description": "Make an array from another arrays values for a specific key",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run lint && npm run test && npm run build",
+    "lint": "eslint src tests",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxshco/array-of-key.git"
+  },
+  "keywords": ["javascript", "es6", "array", "key", "reduce"],
+  "author": "Josh Sturrock <hello@jxsh.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxshco/array-of-key/issues"
+  },
+  "homepage": "https://github.com/jxshco/array-of-key#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
