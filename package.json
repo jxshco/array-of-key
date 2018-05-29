@@ -1,6 +1,6 @@
 {
   "name": "array-of-key",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Make an array from another arrays values for a specific key",
   "main": "./lib/index.js",
   "directories": {
@@ -17,7 +17,13 @@
     "type": "git",
     "url": "git+https://github.com/jxshco/array-of-key.git"
   },
-  "keywords": ["javascript", "es6", "array", "key", "reduce"],
+  "keywords": [
+    "javascript",
+    "es6",
+    "array",
+    "key",
+    "reduce"
+  ],
   "author": "Josh Sturrock <hello@jxsh.co>",
   "license": "MIT",
   "bugs": {
