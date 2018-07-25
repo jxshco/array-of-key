@@ -17,14 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/jxshco/array-of-key.git"
   },
-  "keywords": [
-    "javascript",
-    "es6",
-    "array",
-    "key",
-    "reduce"
-  ],
-  "author": "Josh Sturrock <hello@jxsh.co>",
+  "keywords": ["javascript", "es6", "array", "key", "reduce"],
+  "author": "Josh Sturrock <jxshco@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jxshco/array-of-key/issues"
